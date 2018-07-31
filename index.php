@@ -60,13 +60,13 @@
         <h1>Hello, Dr!</h1>
         <div class="card">
             <form action="date.php" method="post">
-                <p>Expected Date of Completion: <input type="date" name="date" value="<?php echo $dateCurrent; ?>" ></input>
+                <p>Expected Date of Completion: <input type="date" name="date" value="<?php echo $dateCurrent; ?>" >
                 <input type="submit" value="Update!"></p>
             </form>
         </div>
         <div class="card">
             <form action="total.php" method="post">
-                <p>Total Questions: <input type="number" name="total" value="<?php echo $total; ?>" min="1"></input>
+                <p>Total Questions: <input type="number" name="total" value="<?php echo $total; ?>" min="1">
                 <input type="submit" value="Update!"></p>
             </form>
         </div>
